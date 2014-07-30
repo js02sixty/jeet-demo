@@ -1,0 +1,1 @@
+body{background-color:red}main{background-color:#00f;margin:0 auto}@media only screen and (min-width:1050px){main{transition-duration:1s;width:300px}}@media only screen and (min-width:400px) and (max-width:1050px){main{transition-duration:1s;width:100px}}
