@@ -1,0 +1,17 @@
+/*@require jeet*/
+/*@require rupture*/
+
+body
+  edit()
+  background-color red
+main
+  background-color blue
+  /*center(200px)*/
+  margin 0 auto
+  +desktop()
+    transition-duration 1s
+    width 300px
+  +tablet()
+    transition-duration: 1s
+    width 100px
+  cf()
